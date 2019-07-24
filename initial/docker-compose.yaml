@@ -1,0 +1,13 @@
+version: "3.6"
+services:
+  spring-example:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: spring-example:latest
+    ports:
+      - 127.0.0.1:5090:8080
+    volumes:
+      - ./config:/config
+    environment:
+      - CONFIG_LOCATION = ./config/custom.yaml
