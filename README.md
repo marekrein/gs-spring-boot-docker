@@ -33,5 +33,5 @@ Should connect on resulting ip:8080
 
   
 
-To update image on dockerhub, use:  
+#### To update image on dockerhub, use:  
 ./gradlew build docker  
