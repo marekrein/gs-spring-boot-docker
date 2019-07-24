@@ -1,3 +1,5 @@
+Initially based on: https://spring.io/guides/gs/spring-boot-docker/
+
 Initial folder has docker-compose setup with custom properties file:
 
 Check out Dockerfile and docker-compose.
