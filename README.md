@@ -1,4 +1,4 @@
-Initially based on: https://spring.io/guides/gs/spring-boot-docker/
+### Initially based on: https://spring.io/guides/gs/spring-boot-docker/
 
 Initial folder has docker-compose setup with custom properties file:
 
@@ -6,9 +6,9 @@ Check out Dockerfile and docker-compose.
 
 
 To start:
-cd initial
-./gradlew build
-(sudo) docker-compose up
+cd initial  
+./gradlew build  
+(sudo) docker-compose up  
 
 
 docker-compose changes port to 5090
