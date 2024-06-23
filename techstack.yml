@@ -1,0 +1,145 @@
+repo_name: marekrein/gs-spring-boot-docker
+report_id: b4f30f84304b633fcb162a151b7340d3
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-23T19:47:53+00:00'
+requested_by: OlegPahhomov
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker/blob/master/complete/build.gradle
+  detection_source: complete/build.gradle
+  last_updated_by: oleg.pahhomov
+  last_updated_on: 2019-07-24 10:14:01.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker/blob/master/complete/build.gradle
+  detection_source: complete/build.gradle
+  last_updated_by: oleg.pahhomov
+  last_updated_on: 2019-07-24 10:14:01.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: oleg.pahhomov
+  last_updated_on: 2019-07-24 10:14:01.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker/blob/master/complete/src/main/resources/application.yml
+  detection_source: complete/src/main/resources/application.yml
+  last_updated_by: oleg.pahhomov
+  last_updated_on: 2019-07-24 10:14:01.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker
+  detection_source: Repo Metadata
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker/blob/master/initial/pom.xml
+  detection_source: initial/pom.xml
+  last_updated_by: oleg.pahhomov
+  last_updated_on: 2019-07-24 10:14:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker/blob/master/complete/build.gradle
+  detection_source: complete/build.gradle
+  last_updated_by: oleg.pahhomov
+  last_updated_on: 2019-07-24 10:14:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/gs-spring-boot-docker/blob/master/complete/build.gradle
+  detection_source: complete/build.gradle
+  last_updated_by: oleg.pahhomov
+  last_updated_on: 2019-07-24 10:14:01.000000000 Z
